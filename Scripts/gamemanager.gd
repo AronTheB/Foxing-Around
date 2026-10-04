@@ -11,3 +11,7 @@ func add_diamond():
 
 func has_all_diamonds() -> bool:
 	return diamonds >= TOTAL_DIAMONDS
+
+func reset():
+	diamonds = 0
+	diamonds_changed.emit(diamonds)

@@ -38,3 +38,9 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+
+	
+func _input(event):
+	if event is InputEventKey and event.pressed:
+		print("key: ", event.as_text_keycode(), " | physical: ", event.as_text_physical_keycode())

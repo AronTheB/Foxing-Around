@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bt6bfya1yhsmn"]
+
+[ext_resource type="AudioStream" uid="uid://br0y4hyowo6p5" path="res://assets/assets/sound/platformer_level03_loop.ogg" id="1_fghhr"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=1459181846]
+stream = ExtResource("1_fghhr")
+autoplay = true
+bus = &"Music"
